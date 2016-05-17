@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>VetClick | Operator</title>
+	<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+
+	<?php
+	$app = PSK_Application::getInstance();
+
+	$app->layout->RenderStyleLinks();
+	?>
+
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+<?php
+$app->log->ShowLog();
+$app->layout->IncludeView();
+?>
+
+<?php
+$app->layout->RenderScriptLinks();
+$app->layout->IncludeView('', 'script');
+$app->layout->RenderScriptLinks('', 'page');
+?>
+
+<script>
+	jQuery(document).ready(function () {
+		if (typeof (Page) !== 'undefined') {
+			Page.init();
+		}
+	});
+</script>
+
+</body>
+</html>
