@@ -14,5 +14,5 @@ Sınıf diyagramı şimdilik aşağıdaki gibi;
 
 ![PSK Sınıf Diyagramı](http://nkkarasu.net/files/content/20110819122109.png)
 
-Bu diyagram sadece mevcut durumu içerir. Yeni sınıflar eklendikçe güncellenecektir.
+Bu diyagram bütün sınıfları içermemektedir.
 
