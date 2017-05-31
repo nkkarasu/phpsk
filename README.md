@@ -14,4 +14,4 @@ You can see class hierarchy diagram as below;
 
 ![PSK class hierarchy diagram](http://nkkarasu.net/files/content/20110819122109.png)
 
-This diagram only includes current state, it will be updated by addition new classes.
+This diagram does not includes all classes.
