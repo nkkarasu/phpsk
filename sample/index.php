@@ -23,7 +23,6 @@ $app = PSK_Application::getInstance();
 
 $app->config->setConfigArray($psk_conf);
 
-$app->DefineLayout('loginLayout', 'index');
 $app->DefineLayout('layout', 'PSK_APP');
 
 $app->Run(basename(__FILE__));
