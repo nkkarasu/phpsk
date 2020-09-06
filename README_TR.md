@@ -8,7 +8,7 @@ PSK bir web uygulama geliştirme kütüphanesidir. Temel özellikleri;
 * Hızlı birbiçimde kullanıcı arabirimini oluşturmanızı sağlayacak denetimler içerir.
 * ...
 
-PSK bir hobi projesidir. Bundan dolayı onu profesyonel kütüphanelerle karşılaştırmayın. Daha karmaşık, daha gelişmiş, daha güvenli dolayısıyla komple bir kütüphane istiyorsanız; Zend Framework, Symfony, CodeIgniter ya da diğer herhangi bir kütüphaneye göz atabilirsiniz. PSK'yı gerçek dünya uygulamalarınızda kullanamnızı tavsiye etmem (en azından şimdilik).
+PSK bir hobi projesidir. Bundan dolayı onu profesyonel kütüphanelerle karşılaştırmayın. Daha karmaşık, daha gelişmiş, daha güvenli dolayısıyla komple bir kütüphane istiyorsanız; Zend Framework, Symfony, CodeIgniter ya da diğer herhangi bir kütüphaneye göz atabilirsiniz. PSK'yı gerçek dünya uygulamalarınızda kullanmanızı tavsiye etmem (en azından şimdilik).
 
 Sınıf diyagramı şimdilik aşağıdaki gibi;
 
